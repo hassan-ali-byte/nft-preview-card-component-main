@@ -25,8 +25,7 @@ Users should be able to:
 
 ## 🌐 Live Demo
 
-👉 [View Live Demo](https://hassan-ali-byte.github.io/nft-preview-card-component-main/)  
----
+## 👉 [View Live Demo](https://hassan-ali-byte.github.io/nft-preview-card-component-main/)
 
 ## ⚙️ My Process
 
@@ -42,14 +41,12 @@ Users should be able to:
 
 ## ✨ Highlights
 
-- Implemented a **hover overlay effect** using `::after`, `inset: 0`, and `opacity` transitions.
-- Added a **hidden `<h1>` for screen readers** using `clip-path: inset(50%)` for accessibility.
-- Used the **`:has()` selector** for creative hover effects on the creator’s avatar.
-- Applied **semantic HTML** and clean CSS structure following BEM-like patterns.
-- Practiced **z-index layering and overlay debugging** in a real-world scenario.
-- Focused on **CSS reusability and readability** using logical grouping and variable naming.
-
----
+- ♿ Used **semantic HTML** — added an `h1` (for screen readers) and `h2` (for the card title) to improve accessibility.
+- 🎨 Implemented **hover** and **focus-visible** overlay effects with smooth fade transitions.
+- ⌨️ Added **keyboard and mobile accessibility** support using `:focus` and `:focus-visible` for non-mouse users.
+- 🪞 Enhanced visual feedback with **image scaling** and **blur effects** on hover and focus for modern UI interaction.
+- ⚡ Applied **smooth transitions** using `transform` and `filter` for better user experience.
+- 👁️‍🗨️ Practiced **accessibility best practices** like `.sr-only` for hidden headings and proper `alt` text.
 
 ## 🔗 Resources
 

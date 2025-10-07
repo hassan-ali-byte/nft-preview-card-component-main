@@ -108,13 +108,21 @@ body {
   inset: 0;
   background-color: var(--primary-400-alpha);
   opacity: 0;
-  transition: opacity 1s ease;
+  transition: opacity .5s ease;
 }
 .header-img-wrapper:focus,
 .header-img-wrapper:hover::after,
 .header-img-wrapper:focus-visible::after {
   opacity: 1;
   outline: none;
+}
+.header-img-wrapper   img{
+  transition: transform .5s ease ,  filter .5s ease ;
+}
+.header-img-wrapper:hover img,
+.header-img-wrapper:focus-visible img{
+  transform: scale(1.5);
+  filter: blur(5px);
 }
 
 .title {
