@@ -110,15 +110,12 @@ body {
   opacity: 0;
   transition: opacity 1s ease;
 }
-/* .header-img-wrapper:hover::after {
+.header-img-wrapper:hover::after ,
+.header-img-wrapper:focus-visible::after {
   opacity: 1;
-} */
-/* 💻 Enable hover effect only for devices that support hover */
-@media (hover: hover) and (pointer: fine) {
-  .header-img-wrapper:hover::after {
-    opacity: 1;
-  }
 }
+
+
 .title {
   font-weight: var(--fw-bold);
 }
