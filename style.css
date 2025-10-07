@@ -110,11 +110,12 @@ body {
   opacity: 0;
   transition: opacity 1s ease;
 }
-.header-img-wrapper:hover::after ,
+.header-img-wrapper:focus,
+.header-img-wrapper:hover::after,
 .header-img-wrapper:focus-visible::after {
   opacity: 1;
+  outline: none;
 }
-
 
 .title {
   font-weight: var(--fw-bold);
