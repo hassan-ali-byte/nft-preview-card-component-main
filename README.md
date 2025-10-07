@@ -25,9 +25,7 @@ Users should be able to:
 
 ## 🌐 Live Demo
 
-👉 [View Live Demo](#)  
-_(Add your GitHub Pages or Netlify link once it's live)_
-
+👉 [View Live Demo](https://hassan-ali-byte.github.io/nft-preview-card-component-main/)  
 ---
 
 ## ⚙️ My Process
